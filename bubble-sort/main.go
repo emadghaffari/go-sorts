@@ -1,25 +1,22 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"github.com/emadghaffari/go-sorts/utils/random"
+)
 
 var (
 	items []int
 )
 
 func main() {
-	items = append(items, 8)
-	items = append(items, 6)
-	items = append(items, 1)
-	items = append(items, 10)
-	items = append(items, 4)
-	items = append(items, 3)
-	items = append(items, 2)
-	items = append(items, 5)
-	items = append(items, 9)
-	items = append(items, 12)
-	items = append(items, 2)
-	items = append(items, 7)
-	fmt.Println(bubble(items))
+	items := random.Slice(20, 1, 15)
+	fmt.Println("Before: ", items)
+
+	result := bubble(items)
+
+	fmt.Println("After: ", result)
 }
 
 func bubble(items []int) []int {
