@@ -7,6 +7,6 @@
 
 
 test result:
-BenchmarkInsertion-8   	   36004	     36311 ns/op	    2936 B/op	       9 allocs/op
-BenchmarkInsertion-8   	   33469	     34968 ns/op	    2936 B/op	       9 allocs/op
-BenchmarkInsertion-8   	   34713	     35057 ns/op	    2936 B/op	       9 allocs/op
+#### BenchmarkInsertion-8   	   36004	     36311 ns/op	    2936 B/op	       9 allocs/op
+#### BenchmarkInsertion-8   	   33469	     34968 ns/op	    2936 B/op	       9 allocs/op
+#### BenchmarkInsertion-8   	   34713	     35057 ns/op	    2936 B/op	       9 allocs/op
