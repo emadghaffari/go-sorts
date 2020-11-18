@@ -16,7 +16,7 @@ func main() {
 
 	result := bubble(items)
 
-	fmt.Println("After: ", result)
+	fmt.Println("After : ", result)
 }
 
 func bubble(items []int) []int {

@@ -12,7 +12,7 @@ func main() {
 
 	result := insertion(items)
 
-	fmt.Println("After: ", result)
+	fmt.Println("After : ", result)
 }
 
 func insertion(items []int) []int {
